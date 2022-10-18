@@ -25,7 +25,7 @@ class _SignupState extends State<Signup> {
           Container(
             padding: EdgeInsets.only(
               left: 20,
-              top: 80,
+              top: 85,
             ),
             child: SingleChildScrollView(
               child: Column(
