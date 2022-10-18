@@ -12,5 +12,11 @@ class AppAssets {
 
   //Icons
   static const String forwardArrow = 'assets/icons/forward.svg';
+  static const String social1 = ' assets/icons/facebook.svg';
+  static const String social2 = ' assets/icons/twitter.svg';
+  static const String social3 = ' assets/icons/google.svg';
+
+
+
 
 }

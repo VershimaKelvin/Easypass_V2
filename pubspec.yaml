@@ -55,4 +55,6 @@ flutter:
 
   assets:
     - assets/images/
-    - assets/icons/
+    - assets/icons/facebook.svg
+    - assets/icons/twitter.svg
+    - assets/icons/google.svg

@@ -1,6 +1,7 @@
 import 'package:easypass/core/navigators/route_extentions.dart';
 import 'package:easypass/core/navigators/route_name.dart';
 import 'package:easypass/features/auth/presentation/pages/login.dart';
+import 'package:easypass/features/auth/presentation/pages/sign_up.dart';
 import 'package:easypass/features/onboarding/pages/onboarding.dart';
 import 'package:easypass/features/onboarding/pages/splash_screen.dart';
 import 'package:flutter/material.dart';
@@ -21,6 +22,11 @@ Route<T> onGenerateRoute<T>(RouteSettings settings) {
       return _getPageRoute(
         routeName: settings.name!,
         viewToShow: const Login(),
+      );
+    case RouteName.signup:
+      return _getPageRoute(
+        routeName: settings.name!,
+        viewToShow: const Signup(),
       );
 
     default:

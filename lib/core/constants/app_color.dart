@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 class AppColors{
   static const Color blurcolor1 = Color(0xff1C52DB);
+  static const Color textFieldGreen = Color(0xff136431);
   static const Color red = Color(0xffDF253A);
   static const Color secondBlue = Color(0xff256DAF);
   static const Color textSecondary = Color(0xff7080A0);
