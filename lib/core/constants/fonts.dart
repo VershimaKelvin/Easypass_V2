@@ -1,11 +1,10 @@
 import 'package:easypass/core/constants/app_color.dart';
 import 'package:flutter/material.dart';
-import 'package:easypass/app/app.dart';
-import 'package:easypass/core/core.dart';
+
 
 /// Base text with black color and letter spacing set
-class HabeepTextBase extends StatelessWidget {
-  const HabeepTextBase(
+class EasyPassTextBase extends StatelessWidget {
+  const EasyPassTextBase(
       this.text, {
         this.style,
         this.textAlign = TextAlign.left,
@@ -34,7 +33,7 @@ class HabeepTextBase extends StatelessWidget {
   }
 }
 
-class TextBody extends HabeepTextBase {
+class TextBody extends EasyPassTextBase {
   TextBody(
       String text, {
         Key? key,
@@ -61,7 +60,7 @@ class TextBody extends HabeepTextBase {
   );
 }
 
-class H1 extends HabeepTextBase {
+class H1 extends EasyPassTextBase {
   H1(
       String text, {
         Key? key,
@@ -86,7 +85,7 @@ class H1 extends HabeepTextBase {
   );
 }
 
-class TextBold extends HabeepTextBase {
+class TextBold extends EasyPassTextBase {
   TextBold(
       String text, {
         Key? key,
@@ -111,7 +110,7 @@ class TextBold extends HabeepTextBase {
   );
 }
 
-class TextSemiBold extends HabeepTextBase {
+class TextSemiBold extends EasyPassTextBase {
   TextSemiBold(
       String text, {
         Key? key,
@@ -136,7 +135,7 @@ class TextSemiBold extends HabeepTextBase {
   );
 }
 
-class TextSmall extends HabeepTextBase {
+class TextSmall extends EasyPassTextBase {
   TextSmall(
       String text, {
         double fontSize = 12,
